@@ -2,7 +2,7 @@
 
 A fully responsive and animated Flask web application that predicts whether a loan application will be **Approved ✅** or **Not Approved ❌** based on user inputs.
 
-<img width="1309" height="620" alt="image" src="https://github.com/user-attachments/assets/beb7308d-5f3f-4953-9070-bea6b798a24f" />
+<img width="1309" height="620" alt="Screenshot 2025-07-18 154149" src="https://github.com/user-attachments/assets/a793a5ed-f12b-42bc-8f97-553c2abc8f0c" />
 
 
 ---
