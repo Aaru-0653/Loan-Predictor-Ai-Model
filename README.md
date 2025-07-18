@@ -78,7 +78,7 @@ Loan-Prediction-WebApp/
 
 1. **Clone the Repo**
    ```bash
-   git clone https://github.com/yourusername/loan-prediction-webapp.git
+   https://github.com/Aaru-0653/Loan-Predictor-Ai-Model
    cd loan-prediction-webapp
 
 
