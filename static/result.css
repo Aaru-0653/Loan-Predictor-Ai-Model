@@ -1,0 +1,92 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.result-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.glass-card {
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.18);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 2.5rem 2rem;
+    max-width: 350px;
+    width: 90%;
+    text-align: center;
+    transition: box-shadow 0.3s;
+}
+
+.glass-card:hover {
+    box-shadow: 0 12px 40px 0 rgba(31, 38, 135, 0.25);
+}
+
+.glass-card h1 {
+    font-size: 1.7rem;
+    color: #333;
+    margin-bottom: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.result-text {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+    color: #444;
+}
+
+.result-text strong {
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: #6a82fb;
+    letter-spacing: 2px;
+    text-shadow: 0 2px 8px rgba(106, 130, 251, 0.15);
+}
+
+.back-btn {
+    display: inline-block;
+    padding: 0.7rem 2rem;
+    background: linear-gradient(90deg, #fbc2eb 0%, #a6c1ee 100%);
+    color: #333;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 12px;
+    text-decoration: none;
+    box-shadow: 0 2px 8px rgba(106, 130, 251, 0.08);
+    transition: background 0.3s, transform 0.2s;
+}
+
+.back-btn:hover {
+    background: linear-gradient(90deg, #a6c1ee 0%, #fbc2eb 100%);
+    transform: scale(1.05);
+    color: #222;
+}
+
+@media (max-width: 500px) {
+    .glass-card {
+        padding: 1.2rem 0.7rem;
+        max-width: 95vw;
+    }
+    .glass-card h1 {
+        font-size: 1.2rem;
+    }
+    .result-text strong {
+        font-size: 1.4rem;
+    }
+    .back-btn {
+        padding: 0.6rem 1.2rem;
+        font-size: 0.95rem;
